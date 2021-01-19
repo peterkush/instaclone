@@ -42,16 +42,14 @@ source virtual/bin/activate
 Create a `.env` file and paste the following. Replace with your own values:
 
 
-
-SECRET_KEY='secret_key'
-DEBUG=True
-DB_NAME='ig'
-DB_USER='<your database name>'
-DB_PASSWORD='<password to your database>'
-DB_HOST='127.0.0.1'
-MODE='dev'
-ALLOWED_HOSTS='*'
-DISABLE_COLLECTSTATIC=1
+ *DEBUG=True
+ *DB_NAME='ig'
+*DB_USER='<your database name>'
+*DB_PASSWORD='<password to your database>'
+*DB_HOST='127.0.0.1'
+*MODE='dev'
+*ALLOWED_HOSTS='*'
+*DISABLE_COLLECTSTATIC=1
 ```
 
 
