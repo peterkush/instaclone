@@ -67,7 +67,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'Instagram',
+    'Instagram.apps.InstagramConfig',
     'cloudinary',
     'bootstrap3',
     'django.contrib.admin',
@@ -114,14 +114,7 @@ WSGI_APPLICATION = 'InstragramClone.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'ig',
-        'USER':'moringa',
-        'PASSWORD':''
-    }
-}
+
 
 
 # Password validation
