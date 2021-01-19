@@ -3,6 +3,7 @@ from __future__ import unicode_literals
 from django.contrib.auth.models import User
 from django.db import models
 from cloudinary.models import CloudinaryField
+from django.db import IntegrityError, models, router, transaction
 
 
 # Create your models here.
